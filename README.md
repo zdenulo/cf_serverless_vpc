@@ -1,5 +1,9 @@
 # Connecting Cloud Function with Serverless VPC access
 
+Detailed description is on [https://www.the-swamp.info/blog/connecting-cloud-functions-compute-engine/](https://www.the-swamp.info/blog/connecting-cloud-functions-compute-engine/)
+
+Coomands to execute in order to setup everything:  
+
 ## Create Network 
 `create_network.sh`  
 in case you don't want to use default VPC network, you can create custom  

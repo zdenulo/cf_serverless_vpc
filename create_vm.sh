@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
-GCP_PROJECT=adventures-on-gcp
 NETWORK=default
 
-
 gcloud compute instances create-with-container redis-cache \
---project=$GCP_PROJECT \
 --machine-type=f1-micro \
 --container-image=registry.hub.docker.com/library/redis \
 --tags=allow-redis \
